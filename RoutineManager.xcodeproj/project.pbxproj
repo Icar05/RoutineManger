@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7A1A10792A838D52007F2908 /* AlertUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1A10782A838D52007F2908 /* AlertUtil.swift */; };
 		7A1A107D2A83923D007F2908 /* ActivitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1A107C2A83923D007F2908 /* ActivitiesModel.swift */; };
-		7A1A107F2A839A7F007F2908 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A1A107E2A839A7F007F2908 /* Data.json */; };
 		7A2244562A83F0FF00362DDA /* mixkit-vintage-warning-alarm-990.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244472A83F0FE00362DDA /* mixkit-vintage-warning-alarm-990.wav */; };
 		7A2244572A83F0FF00362DDA /* RecorderClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244482A83F0FE00362DDA /* RecorderClick.mp3 */; };
 		7A2244582A83F0FF00362DDA /* SimpleResponse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244492A83F0FF00362DDA /* SimpleResponse.mp3 */; };
@@ -87,7 +86,6 @@
 /* Begin PBXFileReference section */
 		7A1A10782A838D52007F2908 /* AlertUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUtil.swift; sourceTree = "<group>"; };
 		7A1A107C2A83923D007F2908 /* ActivitiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesModel.swift; sourceTree = "<group>"; };
-		7A1A107E2A839A7F007F2908 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 		7A2244472A83F0FE00362DDA /* mixkit-vintage-warning-alarm-990.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-vintage-warning-alarm-990.wav"; sourceTree = "<group>"; };
 		7A2244482A83F0FE00362DDA /* RecorderClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RecorderClick.mp3; sourceTree = "<group>"; };
 		7A2244492A83F0FF00362DDA /* SimpleResponse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SimpleResponse.mp3; sourceTree = "<group>"; };
@@ -178,7 +176,6 @@
 			isa = PBXGroup;
 			children = (
 				7A1A107C2A83923D007F2908 /* ActivitiesModel.swift */,
-				7A1A107E2A839A7F007F2908 /* Data.json */,
 				7A2244652A83F1D300362DDA /* Test.json */,
 			);
 			path = Source;
@@ -496,7 +493,6 @@
 				7ACB38612A82497F00A7D3D5 /* ActionCellTableViewCell.xib in Resources */,
 				7A22445D2A83F0FF00362DDA /* Ring.mp3 in Resources */,
 				7A2244612A83F0FF00362DDA /* SwitchOff.mp3 in Resources */,
-				7A1A107F2A839A7F007F2908 /* Data.json in Resources */,
 				7A2244632A83F0FF00362DDA /* OldRing.mp3 in Resources */,
 				7A22445B2A83F0FF00362DDA /* birdOne.mp3 in Resources */,
 				7A22445E2A83F0FF00362DDA /* Response.mp3 in Resources */,
