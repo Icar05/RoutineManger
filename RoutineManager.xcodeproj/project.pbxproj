@@ -10,6 +10,21 @@
 		7A1A10792A838D52007F2908 /* AlertUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1A10782A838D52007F2908 /* AlertUtil.swift */; };
 		7A1A107D2A83923D007F2908 /* ActivitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1A107C2A83923D007F2908 /* ActivitiesModel.swift */; };
 		7A1A107F2A839A7F007F2908 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A1A107E2A839A7F007F2908 /* Data.json */; };
+		7A2244562A83F0FF00362DDA /* mixkit-vintage-warning-alarm-990.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244472A83F0FE00362DDA /* mixkit-vintage-warning-alarm-990.wav */; };
+		7A2244572A83F0FF00362DDA /* RecorderClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244482A83F0FE00362DDA /* RecorderClick.mp3 */; };
+		7A2244582A83F0FF00362DDA /* SimpleResponse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244492A83F0FF00362DDA /* SimpleResponse.mp3 */; };
+		7A2244592A83F0FF00362DDA /* birdTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A22444A2A83F0FF00362DDA /* birdTwo.mp3 */; };
+		7A22445A2A83F0FF00362DDA /* standart-alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A22444B2A83F0FF00362DDA /* standart-alarm.mp3 */; };
+		7A22445B2A83F0FF00362DDA /* birdOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A22444C2A83F0FF00362DDA /* birdOne.mp3 */; };
+		7A22445C2A83F0FF00362DDA /* DoubleClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A22444D2A83F0FF00362DDA /* DoubleClick.mp3 */; };
+		7A22445D2A83F0FF00362DDA /* Ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A22444E2A83F0FF00362DDA /* Ring.mp3 */; };
+		7A22445E2A83F0FF00362DDA /* Response.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A22444F2A83F0FF00362DDA /* Response.mp3 */; };
+		7A22445F2A83F0FF00362DDA /* MouseOff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244502A83F0FF00362DDA /* MouseOff.mp3 */; };
+		7A2244602A83F0FF00362DDA /* MouseOn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244512A83F0FF00362DDA /* MouseOn.mp3 */; };
+		7A2244612A83F0FF00362DDA /* SwitchOff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244522A83F0FF00362DDA /* SwitchOff.mp3 */; };
+		7A2244622A83F0FF00362DDA /* SwitchOn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244532A83F0FF00362DDA /* SwitchOn.mp3 */; };
+		7A2244632A83F0FF00362DDA /* OldRing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244542A83F0FF00362DDA /* OldRing.mp3 */; };
+		7A2244642A83F0FF00362DDA /* Tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244552A83F0FF00362DDA /* Tap.mp3 */; };
 		7ACB38152A823D1300A7D3D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38142A823D1300A7D3D5 /* AppDelegate.swift */; };
 		7ACB38172A823D1300A7D3D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38162A823D1300A7D3D5 /* SceneDelegate.swift */; };
 		7ACB381E2A823D1400A7D3D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB381D2A823D1400A7D3D5 /* Assets.xcassets */; };
@@ -47,21 +62,6 @@
 		7ACB388A2A82A45400A7D3D5 /* NotificationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38892A82A45400A7D3D5 /* NotificationUtil.swift */; };
 		7ACB388C2A82A64500A7D3D5 /* TimerDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB388B2A82A64500A7D3D5 /* TimerDisplay.swift */; };
 		7ACB388E2A82A6B600A7D3D5 /* TimerDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB388D2A82A6B600A7D3D5 /* TimerDisplayView.swift */; };
-		7ACB389F2A82A9ED00A7D3D5 /* RecorderClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB38902A82A9ED00A7D3D5 /* RecorderClick.mp3 */; };
-		7ACB38A02A82A9ED00A7D3D5 /* OldRing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB38912A82A9ED00A7D3D5 /* OldRing.mp3 */; };
-		7ACB38A12A82A9ED00A7D3D5 /* Response.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB38922A82A9ED00A7D3D5 /* Response.mp3 */; };
-		7ACB38A22A82A9ED00A7D3D5 /* SwitchOn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB38932A82A9ED00A7D3D5 /* SwitchOn.mp3 */; };
-		7ACB38A32A82A9ED00A7D3D5 /* mixkit-vintage-warning-alarm-990.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB38942A82A9ED00A7D3D5 /* mixkit-vintage-warning-alarm-990.wav */; };
-		7ACB38A42A82A9ED00A7D3D5 /* standart-alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB38952A82A9ED00A7D3D5 /* standart-alarm.mp3 */; };
-		7ACB38A52A82A9ED00A7D3D5 /* MouseOff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB38962A82A9ED00A7D3D5 /* MouseOff.mp3 */; };
-		7ACB38A62A82A9ED00A7D3D5 /* Tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB38972A82A9ED00A7D3D5 /* Tap.mp3 */; };
-		7ACB38A72A82A9ED00A7D3D5 /* birdOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB38982A82A9ED00A7D3D5 /* birdOne.mp3 */; };
-		7ACB38A82A82A9ED00A7D3D5 /* MouseOn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB38992A82A9ED00A7D3D5 /* MouseOn.mp3 */; };
-		7ACB38A92A82A9ED00A7D3D5 /* Ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB389A2A82A9ED00A7D3D5 /* Ring.mp3 */; };
-		7ACB38AA2A82A9ED00A7D3D5 /* SwitchOff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB389B2A82A9ED00A7D3D5 /* SwitchOff.mp3 */; };
-		7ACB38AB2A82A9ED00A7D3D5 /* SimpleResponse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB389C2A82A9ED00A7D3D5 /* SimpleResponse.mp3 */; };
-		7ACB38AC2A82A9ED00A7D3D5 /* birdTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB389D2A82A9ED00A7D3D5 /* birdTwo.mp3 */; };
-		7ACB38AD2A82A9ED00A7D3D5 /* DoubleClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB389E2A82A9ED00A7D3D5 /* DoubleClick.mp3 */; };
 		7ACB38AF2A82AAB300A7D3D5 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38AE2A82AAB300A7D3D5 /* Extention.swift */; };
 		7ACB38B12A82AC0100A7D3D5 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38B02A82AC0100A7D3D5 /* AppComponent.swift */; };
 /* End PBXBuildFile section */
@@ -87,6 +87,21 @@
 		7A1A10782A838D52007F2908 /* AlertUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUtil.swift; sourceTree = "<group>"; };
 		7A1A107C2A83923D007F2908 /* ActivitiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesModel.swift; sourceTree = "<group>"; };
 		7A1A107E2A839A7F007F2908 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		7A2244472A83F0FE00362DDA /* mixkit-vintage-warning-alarm-990.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-vintage-warning-alarm-990.wav"; sourceTree = "<group>"; };
+		7A2244482A83F0FE00362DDA /* RecorderClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RecorderClick.mp3; sourceTree = "<group>"; };
+		7A2244492A83F0FF00362DDA /* SimpleResponse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SimpleResponse.mp3; sourceTree = "<group>"; };
+		7A22444A2A83F0FF00362DDA /* birdTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = birdTwo.mp3; sourceTree = "<group>"; };
+		7A22444B2A83F0FF00362DDA /* standart-alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "standart-alarm.mp3"; sourceTree = "<group>"; };
+		7A22444C2A83F0FF00362DDA /* birdOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = birdOne.mp3; sourceTree = "<group>"; };
+		7A22444D2A83F0FF00362DDA /* DoubleClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DoubleClick.mp3; sourceTree = "<group>"; };
+		7A22444E2A83F0FF00362DDA /* Ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ring.mp3; sourceTree = "<group>"; };
+		7A22444F2A83F0FF00362DDA /* Response.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Response.mp3; sourceTree = "<group>"; };
+		7A2244502A83F0FF00362DDA /* MouseOff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MouseOff.mp3; sourceTree = "<group>"; };
+		7A2244512A83F0FF00362DDA /* MouseOn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MouseOn.mp3; sourceTree = "<group>"; };
+		7A2244522A83F0FF00362DDA /* SwitchOff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SwitchOff.mp3; sourceTree = "<group>"; };
+		7A2244532A83F0FF00362DDA /* SwitchOn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SwitchOn.mp3; sourceTree = "<group>"; };
+		7A2244542A83F0FF00362DDA /* OldRing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = OldRing.mp3; sourceTree = "<group>"; };
+		7A2244552A83F0FF00362DDA /* Tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tap.mp3; sourceTree = "<group>"; };
 		7ACB38112A823D1300A7D3D5 /* RoutineManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoutineManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACB38142A823D1300A7D3D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ACB38162A823D1300A7D3D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,21 +143,6 @@
 		7ACB38892A82A45400A7D3D5 /* NotificationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUtil.swift; sourceTree = "<group>"; };
 		7ACB388B2A82A64500A7D3D5 /* TimerDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerDisplay.swift; sourceTree = "<group>"; };
 		7ACB388D2A82A6B600A7D3D5 /* TimerDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerDisplayView.swift; sourceTree = "<group>"; };
-		7ACB38902A82A9ED00A7D3D5 /* RecorderClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = RecorderClick.mp3; path = ../../../RS/RS/Resources/Sounds/RecorderClick.mp3; sourceTree = "<group>"; };
-		7ACB38912A82A9ED00A7D3D5 /* OldRing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = OldRing.mp3; path = ../../../RS/RS/Resources/Sounds/OldRing.mp3; sourceTree = "<group>"; };
-		7ACB38922A82A9ED00A7D3D5 /* Response.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Response.mp3; path = ../../../RS/RS/Resources/Sounds/Response.mp3; sourceTree = "<group>"; };
-		7ACB38932A82A9ED00A7D3D5 /* SwitchOn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SwitchOn.mp3; path = ../../../RS/RS/Resources/Sounds/SwitchOn.mp3; sourceTree = "<group>"; };
-		7ACB38942A82A9ED00A7D3D5 /* mixkit-vintage-warning-alarm-990.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "mixkit-vintage-warning-alarm-990.wav"; path = "../../../RS/RS/Resources/Sounds/mixkit-vintage-warning-alarm-990.wav"; sourceTree = "<group>"; };
-		7ACB38952A82A9ED00A7D3D5 /* standart-alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "standart-alarm.mp3"; path = "../../../RS/RS/Resources/Sounds/standart-alarm.mp3"; sourceTree = "<group>"; };
-		7ACB38962A82A9ED00A7D3D5 /* MouseOff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = MouseOff.mp3; path = ../../../RS/RS/Resources/Sounds/MouseOff.mp3; sourceTree = "<group>"; };
-		7ACB38972A82A9ED00A7D3D5 /* Tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Tap.mp3; path = ../../../RS/RS/Resources/Sounds/Tap.mp3; sourceTree = "<group>"; };
-		7ACB38982A82A9ED00A7D3D5 /* birdOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = birdOne.mp3; path = ../../../RS/RS/Resources/Sounds/birdOne.mp3; sourceTree = "<group>"; };
-		7ACB38992A82A9ED00A7D3D5 /* MouseOn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = MouseOn.mp3; path = ../../../RS/RS/Resources/Sounds/MouseOn.mp3; sourceTree = "<group>"; };
-		7ACB389A2A82A9ED00A7D3D5 /* Ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Ring.mp3; path = ../../../RS/RS/Resources/Sounds/Ring.mp3; sourceTree = "<group>"; };
-		7ACB389B2A82A9ED00A7D3D5 /* SwitchOff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SwitchOff.mp3; path = ../../../RS/RS/Resources/Sounds/SwitchOff.mp3; sourceTree = "<group>"; };
-		7ACB389C2A82A9ED00A7D3D5 /* SimpleResponse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SimpleResponse.mp3; path = ../../../RS/RS/Resources/Sounds/SimpleResponse.mp3; sourceTree = "<group>"; };
-		7ACB389D2A82A9ED00A7D3D5 /* birdTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = birdTwo.mp3; path = ../../../RS/RS/Resources/Sounds/birdTwo.mp3; sourceTree = "<group>"; };
-		7ACB389E2A82A9ED00A7D3D5 /* DoubleClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = DoubleClick.mp3; path = ../../../RS/RS/Resources/Sounds/DoubleClick.mp3; sourceTree = "<group>"; };
 		7ACB38AE2A82AAB300A7D3D5 /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
 		7ACB38B02A82AC0100A7D3D5 /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -356,21 +356,21 @@
 		7ACB388F2A82A97600A7D3D5 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				7ACB38982A82A9ED00A7D3D5 /* birdOne.mp3 */,
-				7ACB389D2A82A9ED00A7D3D5 /* birdTwo.mp3 */,
-				7ACB389E2A82A9ED00A7D3D5 /* DoubleClick.mp3 */,
-				7ACB38942A82A9ED00A7D3D5 /* mixkit-vintage-warning-alarm-990.wav */,
-				7ACB38962A82A9ED00A7D3D5 /* MouseOff.mp3 */,
-				7ACB38992A82A9ED00A7D3D5 /* MouseOn.mp3 */,
-				7ACB38912A82A9ED00A7D3D5 /* OldRing.mp3 */,
-				7ACB38902A82A9ED00A7D3D5 /* RecorderClick.mp3 */,
-				7ACB38922A82A9ED00A7D3D5 /* Response.mp3 */,
-				7ACB389A2A82A9ED00A7D3D5 /* Ring.mp3 */,
-				7ACB389C2A82A9ED00A7D3D5 /* SimpleResponse.mp3 */,
-				7ACB38952A82A9ED00A7D3D5 /* standart-alarm.mp3 */,
-				7ACB389B2A82A9ED00A7D3D5 /* SwitchOff.mp3 */,
-				7ACB38932A82A9ED00A7D3D5 /* SwitchOn.mp3 */,
-				7ACB38972A82A9ED00A7D3D5 /* Tap.mp3 */,
+				7A22444C2A83F0FF00362DDA /* birdOne.mp3 */,
+				7A22444A2A83F0FF00362DDA /* birdTwo.mp3 */,
+				7A22444D2A83F0FF00362DDA /* DoubleClick.mp3 */,
+				7A2244472A83F0FE00362DDA /* mixkit-vintage-warning-alarm-990.wav */,
+				7A2244502A83F0FF00362DDA /* MouseOff.mp3 */,
+				7A2244512A83F0FF00362DDA /* MouseOn.mp3 */,
+				7A2244542A83F0FF00362DDA /* OldRing.mp3 */,
+				7A2244482A83F0FE00362DDA /* RecorderClick.mp3 */,
+				7A22444F2A83F0FF00362DDA /* Response.mp3 */,
+				7A22444E2A83F0FF00362DDA /* Ring.mp3 */,
+				7A2244492A83F0FF00362DDA /* SimpleResponse.mp3 */,
+				7A22444B2A83F0FF00362DDA /* standart-alarm.mp3 */,
+				7A2244522A83F0FF00362DDA /* SwitchOff.mp3 */,
+				7A2244532A83F0FF00362DDA /* SwitchOn.mp3 */,
+				7A2244552A83F0FF00362DDA /* Tap.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -479,30 +479,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A22445F2A83F0FF00362DDA /* MouseOff.mp3 in Resources */,
 				7ACB38672A8249A500A7D3D5 /* TaskCell.xib in Resources */,
+				7A2244582A83F0FF00362DDA /* SimpleResponse.mp3 in Resources */,
+				7A2244602A83F0FF00362DDA /* MouseOn.mp3 in Resources */,
 				7ACB386D2A8249ED00A7D3D5 /* Headercell.xib in Resources */,
-				7ACB38A92A82A9ED00A7D3D5 /* Ring.mp3 in Resources */,
 				7ACB38592A8240BF00A7D3D5 /* TimerViewController.xib in Resources */,
-				7ACB38A62A82A9ED00A7D3D5 /* Tap.mp3 in Resources */,
 				7ACB38212A823D1400A7D3D5 /* LaunchScreen.storyboard in Resources */,
-				7ACB38AD2A82A9ED00A7D3D5 /* DoubleClick.mp3 in Resources */,
+				7A2244622A83F0FF00362DDA /* SwitchOn.mp3 in Resources */,
+				7A22445A2A83F0FF00362DDA /* standart-alarm.mp3 in Resources */,
+				7A2244572A83F0FF00362DDA /* RecorderClick.mp3 in Resources */,
 				7ACB38612A82497F00A7D3D5 /* ActionCellTableViewCell.xib in Resources */,
-				7ACB38AB2A82A9ED00A7D3D5 /* SimpleResponse.mp3 in Resources */,
-				7ACB38A72A82A9ED00A7D3D5 /* birdOne.mp3 in Resources */,
-				7ACB38A82A82A9ED00A7D3D5 /* MouseOn.mp3 in Resources */,
+				7A22445D2A83F0FF00362DDA /* Ring.mp3 in Resources */,
+				7A2244612A83F0FF00362DDA /* SwitchOff.mp3 in Resources */,
 				7A1A107F2A839A7F007F2908 /* Data.json in Resources */,
-				7ACB38A12A82A9ED00A7D3D5 /* Response.mp3 in Resources */,
-				7ACB38A42A82A9ED00A7D3D5 /* standart-alarm.mp3 in Resources */,
-				7ACB38AA2A82A9ED00A7D3D5 /* SwitchOff.mp3 in Resources */,
-				7ACB389F2A82A9ED00A7D3D5 /* RecorderClick.mp3 in Resources */,
+				7A2244632A83F0FF00362DDA /* OldRing.mp3 in Resources */,
+				7A22445B2A83F0FF00362DDA /* birdOne.mp3 in Resources */,
+				7A22445E2A83F0FF00362DDA /* Response.mp3 in Resources */,
 				7ACB38552A8240AD00A7D3D5 /* DayViewController.xib in Resources */,
-				7ACB38AC2A82A9ED00A7D3D5 /* birdTwo.mp3 in Resources */,
-				7ACB38A02A82A9ED00A7D3D5 /* OldRing.mp3 in Resources */,
+				7A2244642A83F0FF00362DDA /* Tap.mp3 in Resources */,
+				7A2244562A83F0FF00362DDA /* mixkit-vintage-warning-alarm-990.wav in Resources */,
 				7ACB384F2A823E3D00A7D3D5 /* TestViewConroller.xib in Resources */,
-				7ACB38A22A82A9ED00A7D3D5 /* SwitchOn.mp3 in Resources */,
-				7ACB38A32A82A9ED00A7D3D5 /* mixkit-vintage-warning-alarm-990.wav in Resources */,
 				7ACB381E2A823D1400A7D3D5 /* Assets.xcassets in Resources */,
-				7ACB38A52A82A9ED00A7D3D5 /* MouseOff.mp3 in Resources */,
+				7A22445C2A83F0FF00362DDA /* DoubleClick.mp3 in Resources */,
+				7A2244592A83F0FF00362DDA /* birdTwo.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
