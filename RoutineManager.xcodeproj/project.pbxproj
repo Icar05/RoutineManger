@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A1A10792A838D52007F2908 /* AlertUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1A10782A838D52007F2908 /* AlertUtil.swift */; };
 		7A1A107D2A83923D007F2908 /* ActivitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1A107C2A83923D007F2908 /* ActivitiesModel.swift */; };
 		7A2244562A83F0FF00362DDA /* mixkit-vintage-warning-alarm-990.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244472A83F0FE00362DDA /* mixkit-vintage-warning-alarm-990.wav */; };
 		7A2244572A83F0FF00362DDA /* RecorderClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244482A83F0FE00362DDA /* RecorderClick.mp3 */; };
@@ -25,6 +24,16 @@
 		7A2244632A83F0FF00362DDA /* OldRing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244542A83F0FF00362DDA /* OldRing.mp3 */; };
 		7A2244642A83F0FF00362DDA /* Tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244552A83F0FF00362DDA /* Tap.mp3 */; };
 		7A2244662A83F1D300362DDA /* Test.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244652A83F1D300362DDA /* Test.json */; };
+		7AC086F32A83F63F005E6F56 /* AlertUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC086F22A83F63F005E6F56 /* AlertUtil.swift */; };
+		7AC086F52A83F66C005E6F56 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC086F42A83F66C005E6F56 /* Color.swift */; };
+		7AC086F72A83F684005E6F56 /* ElapsedTimeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC086F62A83F684005E6F56 /* ElapsedTimeUtil.swift */; };
+		7AC086F92A83F6A3005E6F56 /* NotificationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC086F82A83F6A3005E6F56 /* NotificationUtil.swift */; };
+		7AC086FB2A83F6B9005E6F56 /* SoundUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC086FA2A83F6B9005E6F56 /* SoundUtil.swift */; };
+		7AC086FD2A83F6D8005E6F56 /* TimerDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC086FC2A83F6D8005E6F56 /* TimerDisplay.swift */; };
+		7AC086FF2A83F6ED005E6F56 /* TimerDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC086FE2A83F6ED005E6F56 /* TimerDisplayView.swift */; };
+		7AC087012A83F703005E6F56 /* TimerUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC087002A83F703005E6F56 /* TimerUtil.swift */; };
+		7AC087032A83F71E005E6F56 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC087022A83F71E005E6F56 /* TimerView.swift */; };
+		7AC087052A83F731005E6F56 /* UserDefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC087042A83F731005E6F56 /* UserDefaultStorage.swift */; };
 		7ACB38152A823D1300A7D3D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38142A823D1300A7D3D5 /* AppDelegate.swift */; };
 		7ACB38172A823D1300A7D3D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38162A823D1300A7D3D5 /* SceneDelegate.swift */; };
 		7ACB381E2A823D1400A7D3D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB381D2A823D1400A7D3D5 /* Assets.xcassets */; };
@@ -53,15 +62,6 @@
 		7ACB38772A824BB400A7D3D5 /* DayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38762A824BB400A7D3D5 /* DayDataSource.swift */; };
 		7ACB38792A829AE200A7D3D5 /* DayDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38782A829AE200A7D3D5 /* DayDataProvider.swift */; };
 		7ACB387B2A82A09F00A7D3D5 /* TimerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB387A2A82A09F00A7D3D5 /* TimerPresenter.swift */; };
-		7ACB387D2A82A1DC00A7D3D5 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB387C2A82A1DC00A7D3D5 /* TimerView.swift */; };
-		7ACB387F2A82A21200A7D3D5 /* TimerUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB387E2A82A21200A7D3D5 /* TimerUtil.swift */; };
-		7ACB38822A82A24E00A7D3D5 /* ElapsedTimeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38812A82A24E00A7D3D5 /* ElapsedTimeUtil.swift */; };
-		7ACB38842A82A2A000A7D3D5 /* UserDefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38832A82A2A000A7D3D5 /* UserDefaultStorage.swift */; };
-		7ACB38862A82A37900A7D3D5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38852A82A37900A7D3D5 /* Color.swift */; };
-		7ACB38882A82A39800A7D3D5 /* SoundUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38872A82A39800A7D3D5 /* SoundUtil.swift */; };
-		7ACB388A2A82A45400A7D3D5 /* NotificationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38892A82A45400A7D3D5 /* NotificationUtil.swift */; };
-		7ACB388C2A82A64500A7D3D5 /* TimerDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB388B2A82A64500A7D3D5 /* TimerDisplay.swift */; };
-		7ACB388E2A82A6B600A7D3D5 /* TimerDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB388D2A82A6B600A7D3D5 /* TimerDisplayView.swift */; };
 		7ACB38AF2A82AAB300A7D3D5 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38AE2A82AAB300A7D3D5 /* Extention.swift */; };
 		7ACB38B12A82AC0100A7D3D5 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38B02A82AC0100A7D3D5 /* AppComponent.swift */; };
 /* End PBXBuildFile section */
@@ -84,7 +84,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7A1A10782A838D52007F2908 /* AlertUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUtil.swift; sourceTree = "<group>"; };
 		7A1A107C2A83923D007F2908 /* ActivitiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesModel.swift; sourceTree = "<group>"; };
 		7A2244472A83F0FE00362DDA /* mixkit-vintage-warning-alarm-990.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-vintage-warning-alarm-990.wav"; sourceTree = "<group>"; };
 		7A2244482A83F0FE00362DDA /* RecorderClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RecorderClick.mp3; sourceTree = "<group>"; };
@@ -102,6 +101,16 @@
 		7A2244542A83F0FF00362DDA /* OldRing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = OldRing.mp3; sourceTree = "<group>"; };
 		7A2244552A83F0FF00362DDA /* Tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tap.mp3; sourceTree = "<group>"; };
 		7A2244652A83F1D300362DDA /* Test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Test.json; sourceTree = "<group>"; };
+		7AC086F22A83F63F005E6F56 /* AlertUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUtil.swift; sourceTree = "<group>"; };
+		7AC086F42A83F66C005E6F56 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		7AC086F62A83F684005E6F56 /* ElapsedTimeUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeUtil.swift; sourceTree = "<group>"; };
+		7AC086F82A83F6A3005E6F56 /* NotificationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUtil.swift; sourceTree = "<group>"; };
+		7AC086FA2A83F6B9005E6F56 /* SoundUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundUtil.swift; sourceTree = "<group>"; };
+		7AC086FC2A83F6D8005E6F56 /* TimerDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerDisplay.swift; sourceTree = "<group>"; };
+		7AC086FE2A83F6ED005E6F56 /* TimerDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerDisplayView.swift; sourceTree = "<group>"; };
+		7AC087002A83F703005E6F56 /* TimerUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerUtil.swift; sourceTree = "<group>"; };
+		7AC087022A83F71E005E6F56 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		7AC087042A83F731005E6F56 /* UserDefaultStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultStorage.swift; sourceTree = "<group>"; };
 		7ACB38112A823D1300A7D3D5 /* RoutineManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoutineManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACB38142A823D1300A7D3D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ACB38162A823D1300A7D3D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,15 +143,6 @@
 		7ACB38762A824BB400A7D3D5 /* DayDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDataSource.swift; sourceTree = "<group>"; };
 		7ACB38782A829AE200A7D3D5 /* DayDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDataProvider.swift; sourceTree = "<group>"; };
 		7ACB387A2A82A09F00A7D3D5 /* TimerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPresenter.swift; sourceTree = "<group>"; };
-		7ACB387C2A82A1DC00A7D3D5 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
-		7ACB387E2A82A21200A7D3D5 /* TimerUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerUtil.swift; sourceTree = "<group>"; };
-		7ACB38812A82A24E00A7D3D5 /* ElapsedTimeUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeUtil.swift; sourceTree = "<group>"; };
-		7ACB38832A82A2A000A7D3D5 /* UserDefaultStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultStorage.swift; sourceTree = "<group>"; };
-		7ACB38852A82A37900A7D3D5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		7ACB38872A82A39800A7D3D5 /* SoundUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundUtil.swift; sourceTree = "<group>"; };
-		7ACB38892A82A45400A7D3D5 /* NotificationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUtil.swift; sourceTree = "<group>"; };
-		7ACB388B2A82A64500A7D3D5 /* TimerDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerDisplay.swift; sourceTree = "<group>"; };
-		7ACB388D2A82A6B600A7D3D5 /* TimerDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerDisplayView.swift; sourceTree = "<group>"; };
 		7ACB38AE2A82AAB300A7D3D5 /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
 		7ACB38B02A82AC0100A7D3D5 /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -181,6 +181,23 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
+		7AC086F12A83F623005E6F56 /* Dependensies */ = {
+			isa = PBXGroup;
+			children = (
+				7AC086F22A83F63F005E6F56 /* AlertUtil.swift */,
+				7AC086F42A83F66C005E6F56 /* Color.swift */,
+				7AC086F62A83F684005E6F56 /* ElapsedTimeUtil.swift */,
+				7AC086F82A83F6A3005E6F56 /* NotificationUtil.swift */,
+				7AC086FA2A83F6B9005E6F56 /* SoundUtil.swift */,
+				7AC086FC2A83F6D8005E6F56 /* TimerDisplay.swift */,
+				7AC086FE2A83F6ED005E6F56 /* TimerDisplayView.swift */,
+				7AC087002A83F703005E6F56 /* TimerUtil.swift */,
+				7AC087022A83F71E005E6F56 /* TimerView.swift */,
+				7AC087042A83F731005E6F56 /* UserDefaultStorage.swift */,
+			);
+			path = Dependensies;
+			sourceTree = "<group>";
+		};
 		7ACB38082A823D1300A7D3D5 = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +221,7 @@
 		7ACB38132A823D1300A7D3D5 /* RoutineManager */ = {
 			isa = PBXGroup;
 			children = (
+				7AC086F12A83F623005E6F56 /* Dependensies */,
 				7A1A107A2A838EB6007F2908 /* Source */,
 				7ACB388F2A82A97600A7D3D5 /* Sounds */,
 				7ACB38472A823DC900A7D3D5 /* UI */,
@@ -288,7 +306,6 @@
 		7ACB38512A82409500A7D3D5 /* TimerViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7ACB38802A82A23200A7D3D5 /* dependencies */,
 				7ACB38562A8240BF00A7D3D5 /* TimerViewController.swift */,
 				7ACB38572A8240BF00A7D3D5 /* TimerViewController.xib */,
 				7ACB387A2A82A09F00A7D3D5 /* TimerPresenter.swift */,
@@ -334,23 +351,6 @@
 				7ACB386E2A824A0400A7D3D5 /* HeaderCellModel.swift */,
 			);
 			path = HeaderCell;
-			sourceTree = "<group>";
-		};
-		7ACB38802A82A23200A7D3D5 /* dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				7ACB387C2A82A1DC00A7D3D5 /* TimerView.swift */,
-				7ACB387E2A82A21200A7D3D5 /* TimerUtil.swift */,
-				7ACB38812A82A24E00A7D3D5 /* ElapsedTimeUtil.swift */,
-				7ACB38832A82A2A000A7D3D5 /* UserDefaultStorage.swift */,
-				7ACB38852A82A37900A7D3D5 /* Color.swift */,
-				7ACB38872A82A39800A7D3D5 /* SoundUtil.swift */,
-				7ACB38892A82A45400A7D3D5 /* NotificationUtil.swift */,
-				7ACB388B2A82A64500A7D3D5 /* TimerDisplay.swift */,
-				7ACB388D2A82A6B600A7D3D5 /* TimerDisplayView.swift */,
-				7A1A10782A838D52007F2908 /* AlertUtil.swift */,
-			);
-			path = dependencies;
 			sourceTree = "<group>";
 		};
 		7ACB388F2A82A97600A7D3D5 /* Sounds */ = {
@@ -527,36 +527,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AC087052A83F731005E6F56 /* UserDefaultStorage.swift in Sources */,
 				7A1A107D2A83923D007F2908 /* ActivitiesModel.swift in Sources */,
 				7ACB38492A823DDE00A7D3D5 /* InitialViewController.swift in Sources */,
-				7ACB38882A82A39800A7D3D5 /* SoundUtil.swift in Sources */,
 				7ACB38602A82497F00A7D3D5 /* ActionCellTableViewCell.swift in Sources */,
-				7ACB38862A82A37900A7D3D5 /* Color.swift in Sources */,
-				7ACB388C2A82A64500A7D3D5 /* TimerDisplay.swift in Sources */,
+				7AC086FB2A83F6B9005E6F56 /* SoundUtil.swift in Sources */,
+				7AC086FD2A83F6D8005E6F56 /* TimerDisplay.swift in Sources */,
 				7ACB386F2A824A0400A7D3D5 /* HeaderCellModel.swift in Sources */,
+				7AC086F72A83F684005E6F56 /* ElapsedTimeUtil.swift in Sources */,
 				7ACB38692A8249D900A7D3D5 /* TaskCellModel.swift in Sources */,
-				7ACB38842A82A2A000A7D3D5 /* UserDefaultStorage.swift in Sources */,
 				7ACB386C2A8249ED00A7D3D5 /* Headercell.swift in Sources */,
 				7ACB38B12A82AC0100A7D3D5 /* AppComponent.swift in Sources */,
 				7ACB38462A823DA200A7D3D5 /* Navigator.swift in Sources */,
-				7ACB388A2A82A45400A7D3D5 /* NotificationUtil.swift in Sources */,
 				7ACB38722A824A9A00A7D3D5 /* DayPresenter.swift in Sources */,
-				7ACB388E2A82A6B600A7D3D5 /* TimerDisplayView.swift in Sources */,
 				7ACB38152A823D1300A7D3D5 /* AppDelegate.swift in Sources */,
-				7ACB387F2A82A21200A7D3D5 /* TimerUtil.swift in Sources */,
+				7AC086FF2A83F6ED005E6F56 /* TimerDisplayView.swift in Sources */,
+				7AC086F32A83F63F005E6F56 /* AlertUtil.swift in Sources */,
 				7ACB38582A8240BF00A7D3D5 /* TimerViewController.swift in Sources */,
-				7ACB387D2A82A1DC00A7D3D5 /* TimerView.swift in Sources */,
 				7ACB38792A829AE200A7D3D5 /* DayDataProvider.swift in Sources */,
+				7AC087012A83F703005E6F56 /* TimerUtil.swift in Sources */,
+				7AC086F92A83F6A3005E6F56 /* NotificationUtil.swift in Sources */,
+				7AC086F52A83F66C005E6F56 /* Color.swift in Sources */,
 				7ACB38172A823D1300A7D3D5 /* SceneDelegate.swift in Sources */,
 				7ACB38AF2A82AAB300A7D3D5 /* Extention.swift in Sources */,
 				7ACB38662A8249A500A7D3D5 /* TaskCell.swift in Sources */,
-				7ACB38822A82A24E00A7D3D5 /* ElapsedTimeUtil.swift in Sources */,
 				7ACB38632A82499100A7D3D5 /* ActionCellModel.swift in Sources */,
+				7AC087032A83F71E005E6F56 /* TimerView.swift in Sources */,
 				7ACB387B2A82A09F00A7D3D5 /* TimerPresenter.swift in Sources */,
 				7ACB38542A8240AD00A7D3D5 /* DayViewController.swift in Sources */,
 				7ACB384E2A823E3D00A7D3D5 /* TestViewConroller.swift in Sources */,
 				7ACB38772A824BB400A7D3D5 /* DayDataSource.swift in Sources */,
-				7A1A10792A838D52007F2908 /* AlertUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
