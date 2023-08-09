@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TimerViewController" customModule="RoutineManager" customModuleProvider="target">
+            <connections>
+                <outlet property="timerView" destination="YWu-ln-tg2" id="7Tm-xY-EPM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="work" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T8f-5V-m6Y">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                </imageView>
+                <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ij-NE-dVh" userLabel="transparentBackground">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YWu-ln-tg2" customClass="TimerView" customModule="RoutineManager" customModuleProvider="target">
+                    <rect key="frame" x="71.666666666666686" y="301" width="250" height="250"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="240" id="5ho-4l-lvI"/>
+                        <constraint firstAttribute="width" constant="240" id="PmN-Np-eO4"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="2ij-NE-dVh" secondAttribute="bottom" id="7NA-fE-A2r"/>
+                <constraint firstItem="T8f-5V-m6Y" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="AFc-1P-OOJ"/>
+                <constraint firstItem="2ij-NE-dVh" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="CRk-oy-Yhq"/>
+                <constraint firstItem="YWu-ln-tg2" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="FC2-lS-Oao"/>
+                <constraint firstItem="T8f-5V-m6Y" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Kfq-MP-qYo"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="T8f-5V-m6Y" secondAttribute="trailing" id="S4x-rT-MWE"/>
+                <constraint firstItem="2ij-NE-dVh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="XYB-rH-paO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="T8f-5V-m6Y" secondAttribute="bottom" id="dQu-YB-xqt"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2ij-NE-dVh" secondAttribute="trailing" id="e5z-7H-rPK"/>
+                <constraint firstItem="YWu-ln-tg2" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="nv2-Ms-q83"/>
+                <constraint firstItem="YWu-ln-tg2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ps7-dl-bsj"/>
+                <constraint firstItem="YWu-ln-tg2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wKY-QF-Tit"/>
+            </constraints>
+            <point key="canvasLocation" x="34" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="work" width="346" height="522"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
