@@ -25,6 +25,7 @@
 		7A2244622A83F0FF00362DDA /* SwitchOn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244532A83F0FF00362DDA /* SwitchOn.mp3 */; };
 		7A2244632A83F0FF00362DDA /* OldRing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244542A83F0FF00362DDA /* OldRing.mp3 */; };
 		7A2244642A83F0FF00362DDA /* Tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244552A83F0FF00362DDA /* Tap.mp3 */; };
+		7A2244662A83F1D300362DDA /* Test.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A2244652A83F1D300362DDA /* Test.json */; };
 		7ACB38152A823D1300A7D3D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38142A823D1300A7D3D5 /* AppDelegate.swift */; };
 		7ACB38172A823D1300A7D3D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB38162A823D1300A7D3D5 /* SceneDelegate.swift */; };
 		7ACB381E2A823D1400A7D3D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB381D2A823D1400A7D3D5 /* Assets.xcassets */; };
@@ -102,6 +103,7 @@
 		7A2244532A83F0FF00362DDA /* SwitchOn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SwitchOn.mp3; sourceTree = "<group>"; };
 		7A2244542A83F0FF00362DDA /* OldRing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = OldRing.mp3; sourceTree = "<group>"; };
 		7A2244552A83F0FF00362DDA /* Tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tap.mp3; sourceTree = "<group>"; };
+		7A2244652A83F1D300362DDA /* Test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Test.json; sourceTree = "<group>"; };
 		7ACB38112A823D1300A7D3D5 /* RoutineManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoutineManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACB38142A823D1300A7D3D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ACB38162A823D1300A7D3D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 			children = (
 				7A1A107C2A83923D007F2908 /* ActivitiesModel.swift */,
 				7A1A107E2A839A7F007F2908 /* Data.json */,
+				7A2244652A83F1D300362DDA /* Test.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -483,6 +486,7 @@
 				7ACB38672A8249A500A7D3D5 /* TaskCell.xib in Resources */,
 				7A2244582A83F0FF00362DDA /* SimpleResponse.mp3 in Resources */,
 				7A2244602A83F0FF00362DDA /* MouseOn.mp3 in Resources */,
+				7A2244662A83F1D300362DDA /* Test.json in Resources */,
 				7ACB386D2A8249ED00A7D3D5 /* Headercell.xib in Resources */,
 				7ACB38592A8240BF00A7D3D5 /* TimerViewController.xib in Resources */,
 				7ACB38212A823D1400A7D3D5 /* LaunchScreen.storyboard in Resources */,

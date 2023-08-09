@@ -15,7 +15,7 @@ class DayDataProvider{
     }
     
     private func parseJson() -> ActivitiesModel{
-        if let path = Bundle.main.path(forResource: "Data", ofType: "json") {
+        if let path = Bundle.main.path(forResource: "Test", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 return try JSONDecoder().decode(ActivitiesModel.self, from: data)
