@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://artprodsu6weu.artifacts.visualstudio.com/A508c99d3-8b0b-4a8b-b41e-1f263667c4cf/31471335-511a-4b45-8c62-d821ea8a98d4/_apis/artifact/cGlwZWxpbmVhcnRpZmFjdDovL2NvbXBldG9tbWMvcHJvamVjdElkLzMxNDcxMzM1LTUxMWEtNGI0NS04YzYyLWQ4MjFlYThhOThkNC9idWlsZElkLzUyMjMyL2FydGlmYWN0TmFtZS9VbWljb0FydGlmYWN00/content?format=file&amp;subPath=%2FUmico.ipa</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.competo.it.umicostage</string>
+				<key>bundle-version</key>
+				<string>2.9</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>STAGE-20230817.14</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
